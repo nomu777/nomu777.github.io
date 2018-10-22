@@ -13,15 +13,6 @@ body {
   margin: 0 auto;
 }
 
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
 .btn:hover {
   opacity: 1;
 }
@@ -90,18 +81,10 @@ header {
   margin-top: 76px;
 }
 
-.top-cover:before {
-  /* background: inherit;
-  background-color: rgb(0,163,175);
-  opacity: 0.5;
-  filter: blur(3.9px); */
-}
-
 .top-cover_contents {
   color: #fff;
-  /* margin-top: 80px; */
   padding-top: 195px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .top-profile_about_title {
@@ -120,12 +103,7 @@ header {
 .top-profile {
   background-color: #fff;
   padding: 20px 0 20px;
-  /* margin-top: 65px; */
   overflow: auto;
-}
-
-.top-profile_contents {
-
 }
 
 .top-profile_title {
@@ -133,7 +111,7 @@ header {
 }
 
 .top-profile_itmes {
-  width: 550px;
+  width: 580px;
   margin: 0 auto;
 }
 
@@ -160,7 +138,6 @@ header {
 
 .top-works_inner {
   margin: 0 auto;
-  /* width: 1080px; */
 }
 
 .top-works_title {
@@ -175,12 +152,13 @@ header {
 }
 
 .top-works_list {
-  width: 550px;
+  width: 580px;
   margin: 20px auto;
 }
 
 .top-works_item {
   margin: 12px 0;
+  cursor:pointer;
 }
 
 .top-works_item_info {
@@ -190,27 +168,19 @@ header {
   padding: 20px;
 }
 
-.top-banner_list {
-  display: table;
-  margin: 0;
+.top-works_item_details {
+  margin: 5px auto;
   padding: 0;
-  width: 100%;
+  list-style: none;
 }
 
-.top-banner_item {
-  display: table-cell;
-  overflow: hidden;
-  text-align: center;
-  vertical-align: middle;
-  width: 33.3%;
-  height: 190px;
+.active {
+  font-size: 16px;
+  display: none;
+  padding: 5px 5px;
+  margin-bottom: 5px;
+  background-color: #f3f3f2;
 }
-
-
-
-
-
-
 
 /* フッター */
 .footer {
@@ -222,10 +192,6 @@ header {
   position: relative;
 }
 
-.footer-contact {
-
-}
-
 .footer-contact_title {
   text-align: center;
 }
@@ -234,14 +200,3 @@ header {
   text-align: center;
   font-size: 24px;
 }
-
-
-
-
-
-
-
-
-
-
-//

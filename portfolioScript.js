@@ -24,12 +24,15 @@ $(function() {
     });
   });
 
-  $(function(){
-    $('#menu li').hover(function(){
-        $("ul:not(:animated)", this).slideDown();
-    }, function(){
-        $("ul.child",this).slideUp();
-    });
+  $('.top-works_item').click(function() {
+    var $active = $(this).find('.active');
+    if($active.hasClass('open')) {
+      $active.removeClass('open');
+      $active.slideUp();
+    } else {
+      $active.addClass('open');
+      $active.slideDown();
+    }
   });
 
 });
