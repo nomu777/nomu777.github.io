@@ -72,7 +72,7 @@ header {
 
 /* トップ画面 */
 .top-cover {
-  background-image: url(background.JPG);
+  background-image: url(background.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
