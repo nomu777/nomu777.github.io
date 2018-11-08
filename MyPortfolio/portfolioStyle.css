@@ -127,6 +127,77 @@ header {
   font-size: 16px;
 }
 
+.top-profile_itme_skill_lists {
+  margin-bottom: 10px;
+}
+
+.java_logo {
+  height: 15%;
+  width: 15%;
+}
+
+.python_logo {
+  height: 10%;
+  width: 10%;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.javascript_logo {
+  height: 10%;
+  width: 10%;
+  margin-left: 20px;
+}
+
+.spring_logo {
+  height: 10%;
+  width: 10%;
+  margin-bottom: 5px;
+}
+
+.jquery_logo {
+  height: 15%;
+  width: 15%;
+  margin-bottom: 7px;
+}
+
+.bootstrap_logo {
+  height: 15%;
+  width: 15%;
+  margin-left: 20px;
+  margin-bottom: 9px;
+}
+
+.visual-studio_logo {
+  height: 10%;
+  width: 10%;
+  margin-left: 20px;
+}
+
+.github_logo {
+  height: 15%;
+  width: 15%;
+  margin-left: 20px;
+}
+
+.mysql_logo {
+  height: 15%;
+  width: 15%;
+  margin-left: 14px;
+}
+
+.git_logo {
+  height: 15%;
+  width: 15%;
+  margin-left: 15px;
+}
+
+.android_logo {
+  height: 10%;
+  width: 10%;
+  margin-left: 20px;
+}
+
 
 /* 実績欄 */
 .top-works {
